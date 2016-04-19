@@ -100,19 +100,21 @@ add_action( 'widgets_init', 'lanyonwp_widgets_init' );
  * Enqueue scripts and styles.
  */
 function lanyonwp_scripts() {
+
+	/* enqueue the minified version of poole.css and lanyon.css  */
+	wp_enqueue_style( 'lanyonwp-poole_and_lanyon_style', get_stylesheet_directory_uri() . '/poole_and_lanyon.min.css' );
+
+	/* enqueue the theme's style.css */
 	wp_enqueue_style( 'lanyonwp-style', get_stylesheet_uri() );
 
+	/* this is unneeded underscores stuff
 	wp_enqueue_script( 'lanyonwp-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
-
-	wp_enqueue_script( 'lanyonwp-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script( 'lanyonwp-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );*/
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
-	
-	/* enqueue the stylesheets from lanyon */
-	wp_enqueue_style( 'lanyonwp-style-poole', get_stylesheet_directory_uri() . '/css/poole.css' );
-	wp_enqueue_style( 'lanyonwp-style-lanyon', get_stylesheet_directory_uri() . '/css/lanyon.css' );
+
 }
 add_action( 'wp_enqueue_scripts', 'lanyonwp_scripts' );
 

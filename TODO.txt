@@ -1,0 +1,12 @@
+To do....
+------------------------------------------
+
+* comments formatting doesn't look so great
+
+* buttons look cruddy
+
+* search box looks cruddy
+
+* images aren't floating correctly or being responsive
+
+* make footer style similar to header
