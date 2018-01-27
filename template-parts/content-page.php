@@ -21,6 +21,8 @@
 		?>
 	</div><!-- .entry-content -->
 
+  <div class="clearfix"></div>
+
 	<footer class="entry-footer">
 		<?php edit_post_link( esc_html__( 'Edit', 'lanyonwp' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-footer -->

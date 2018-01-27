@@ -102,10 +102,10 @@ add_action( 'widgets_init', 'lanyonwp_widgets_init' );
 function lanyonwp_scripts() {
 
 	/* enqueue the minified version of poole.css and lanyon.css  */
-	wp_enqueue_style( 'lanyonwp-poole_and_lanyon_style', get_stylesheet_directory_uri() . '/poole_and_lanyon.min.css' );
+	wp_enqueue_style( 'lanyonwp-poole_and_lanyon_style', get_stylesheet_directory_uri() . '/poole_and_lanyon.min.css', '1.0' );
 
 	/* enqueue the theme's style.css */
-	wp_enqueue_style( 'lanyonwp-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'lanyonwp-style', get_stylesheet_uri(), '1.1' );
 
 	/* this is unneeded underscores stuff
 	wp_enqueue_script( 'lanyonwp-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
@@ -142,3 +142,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+// Include better comments file
+require_once( get_template_directory() .'/better-comments.php' );
+
+?>

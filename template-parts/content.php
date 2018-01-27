@@ -35,6 +35,8 @@
 		?>
 	</div><!-- .entry-content -->
 
+	<div class="clearfix"></div>
+
 	<div class="post-date">
 		<?php /*lanyonwp_entry_footer();*/ ?>
 	</div><!-- close footer -->

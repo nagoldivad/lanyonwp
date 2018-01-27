@@ -1,9 +1,13 @@
 # lanyonwp
 
-A WordPress theme based on Lanyon.
+lanyonwp is a WordPress theme based on the [Lanyon](http://lanyon.getpoole.com) theme for Jekyll -- it's an attempt to port Lanyon to WordPress.
 
-This is an attempt make a WordPress theme from Lanyon. Lanyon is a theme for Jeckyll (http://lanyon.getpoole.com/)
+Lanyon's eight optional color schemes are included and can be changed in the customizer. (In the WP admin, go to Appearance -> Customize -> Colors and choose from the "Theme Color" dropdown.)
 
-As far as I'm concerned it's about 95% finished; there's 5% of rough edges that need to be polished... But I don't really work on this any more, it was just for fun/learning.
+##Acknowledgements and License Info
 
-The theme's color scheme can be changed in the customizer.
+lanyonwp's license is [WTFPL](http://www.wtfpl.net/).
+
+lanyonwp is built with the [underscores](https://underscores.me/) theme, which is licensed under the [GPL](http://www.gnu.org/licenses/gpl-2.0.html).
+
+lanyonwp uses the CSS files from Lanyon, which is licensed under the [MIT license](https://mit-license.org/).

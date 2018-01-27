@@ -10,10 +10,12 @@
 
 	</div><!-- #content -->
 	
-	<footer class="container">
-		<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'lanyonwp' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'lanyonwp' ), 'WordPress' ); ?></a>
-		<span> | </span>
-		<?php printf( esc_html__( 'Theme: %1$s', 'lanyonwp' ), '<a href="https://github.com/nagoldivad/lanyonwp" rel="designer">lanyonwp</a>' ); ?>
+	<footer>
+        <div class="footer-content container">
+                Proudly powered by <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'lanyonwp' ) ); ?>"><?php printf( esc_html__( '%s', 'lanyonwp' ), 'WordPress' ); ?></a>
+                <span> | </span>
+                <?php printf( esc_html__( '%1$s', 'lanyonwp' ), '<a href="https://github.com/nagoldivad/lanyonwp" rel="designer">lanyonwp</a> theme' ); ?>
+        </div>
 	</footer><!-- .container -->
 
 </div><!-- #page -->

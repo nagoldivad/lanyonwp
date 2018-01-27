@@ -1,5 +1,5 @@
 To do....
-------------------------------------------
+---------
 
 * comments formatting doesn't look so great
 
@@ -10,3 +10,13 @@ To do....
 * images aren't floating correctly or being responsive
 
 * make footer style similar to header
+
+----
+
+Jan 2018
+
+* posts navigation could use improving
+
+* do galleries display correctly?
+
+* search box still looks lame

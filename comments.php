@@ -47,9 +47,9 @@ if ( post_password_required() ) {
 
 		<ol class="comment-list">
 			<?php
+				// Display comments using the better-comments.php template
 				wp_list_comments( array(
-					'style'      => 'ol',
-					'short_ping' => true,
+					'callback' => 'better_comments'
 				) );
 			?>
 		</ol><!-- .comment-list -->
