@@ -4,7 +4,7 @@ lanyonwp is a WordPress theme based on the [Lanyon](http://lanyon.getpoole.com) 
 
 Lanyon's eight optional color schemes are included and can be changed in the customizer. (In the WP admin, go to Appearance -> Customize -> Colors and choose from the "Theme Color" dropdown.)
 
-##Acknowledgements and License Info
+## Acknowledgements and License Info
 
 lanyonwp's license is [WTFPL](http://www.wtfpl.net/).
 
